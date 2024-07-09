@@ -1,0 +1,50 @@
+/* Body element */
+body {
+    background-color: #fff;
+    color: rgba(0,0,0,0.8);
+    }
+    .light-mode body {
+    background-color: #e2e3e5;
+    color: #161717;
+    }
+    .dark-mode body {
+    background-color: #161715;
+    color: #ebf4f1;
+    }
+    .gray-mode body {
+    background-color: #c9d0d3;
+    color: #433422;
+    }
+    
+    /* Active link */
+    .router-link-active {
+    border-bottom: 2px solid gray;
+    }
+    .dark-mode .router-link-active {
+    border-bottom: 2px solid rgb(228, 88, 46);
+    }
+    .gray-mode .router-link-active {
+    border-bottom: 2px solid rgb(231, 67, 46);
+    }
+    /* input */
+    textarea,
+    input, select{
+    padding:.5em;
+    display: block;
+    max-width: auto;
+    margin-top: .2em;
+    padding: .5em;
+    border: 1px solid rgba(111, 109, 109,.2);
+    border-radius: 4px;
+    background: none;
+    }
+    .dark-mode textarea,
+    .dark-mode input,
+    .gray-mode select  {
+    border: 1px solid rgba(199, 197, 197, 0.8);
+    }
+    .gray-mode textarea,
+    .gray-mode input,
+    .gray-mode select {
+    border: 1px solid rgba(41, 41, 45, 0.8);
+    } 
